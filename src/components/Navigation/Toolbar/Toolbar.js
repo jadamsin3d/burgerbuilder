@@ -6,7 +6,7 @@ import MenuIcon from '../../UI/MenuIcon/MenuIcon'
 
 const toolbar = (props) => (
   <header className={styles.Toolbar}>
-    <div onClick={props.opened}>
+    <div onClick={props.opened} className={styles.PhoneOnly}>
       <MenuIcon/>
     </div>
     <div className={styles.Logo}>
